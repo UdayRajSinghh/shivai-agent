@@ -2,7 +2,7 @@
     'use strict';
     
     // Configuration - Update these values for your deployment
-    const WS_URL = 'ws://localhost:8765'; // Your WebSocket server URL
+    const WS_URL = 'ws://openai-shell.onrender.com'; // Your WebSocket server URL
     
     // Get the script tag that loaded this widget
     const currentScript = document.currentScript || document.querySelector('script[data-agent-id]');
@@ -953,3 +953,4 @@
     });
     
 })();
+
